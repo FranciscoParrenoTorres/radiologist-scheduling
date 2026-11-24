@@ -13,7 +13,7 @@ sys.path.insert(0, str(RAIZ))
 from radplan import Config, construir, evaluar, resolver          # noqa: E402
 from radplan.excel import convertir                                # noqa: E402
 
-LIBROS = sorted((RAIZ.parent / "Soluciones").rglob("*.xlsx"))
+LIBROS = sorted((RAIZ / "excel").rglob("*.xlsx"))
 # libros cuya solución guardada no corresponde a sus datos (ver validar.py)
 CADUCADAS = ("JULIO", "SEPTIEMBRE")
 
@@ -43,7 +43,7 @@ def test_reproduce_excel(libro):
 @pytest.mark.parametrize("mes", ["enero", "febrero", "marzo", "abril", "mayo"])
 def test_variantes_son_opciones(mes):
     """Los libros _ns3, _ns2ns3... equivalen a la opción 'niveles' sobre el libro base."""
-    carpeta = next(p for p in (RAIZ.parent / "Soluciones").iterdir() if mes in p.name)
+    carpeta = next(p for p in (RAIZ / "excel").iterdir() if mes in p.name)
     base, _ = convertir(carpeta / f"IF_{mes}_2025.xlsx")
     for sufijo, cfg in (("ns3", dict(niveles=2)), ("ns2ns3", dict(niveles=1)), ("ns1ns2ns3", dict(niveles=0)),
                         ("ntns1ns2ns3", dict(jerarquia="no"))):
