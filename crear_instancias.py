@@ -9,7 +9,7 @@ from radplan.generador import inferir_patrones, semisintetica, sintetica
 from radplan.validar import reparar, validar
 
 AQUI = Path(__file__).resolve().parent
-SOL, OUT = AQUI.parent / "Soluciones", AQUI / "instancias"
+SOL, OUT = AQUI / "excel", AQUI / "instancias"
 MESES = "enero febrero marzo abril mayo junio julio agosto septiembre".split()
 
 reales = []

@@ -2,7 +2,7 @@
 solución guardada en cada libro.
 
     pip install pyomo highspy openpyxl
-    python prototipo.py                 # todos los libros de ../Soluciones
+    python prototipo.py                 # todos los libros de ./excel
     python prototipo.py enero           # solo los que contengan "enero"
     python prototipo.py --solver cbc    # otro solver de Pyomo (cbc, gurobi, ...)
 
@@ -198,7 +198,7 @@ def resolver(m, solver):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("filtro", nargs="?", default="")
-    ap.add_argument("--carpeta", default=str(Path(__file__).resolve().parent.parent / "Soluciones"))
+    ap.add_argument("--carpeta", default=str(Path(__file__).resolve().parent / "excel"))
     ap.add_argument("--solver", default="appsi_highs")
     a = ap.parse_args()
     print(f"{'libro':46s} {'ver':3s} {'guardada':>8s} {'excel':>7s} {'articulo':>8s}  {'s':>4s}  observaciones")
