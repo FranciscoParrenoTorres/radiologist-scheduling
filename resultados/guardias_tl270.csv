@@ -1,0 +1,3 @@
+instancia,config,nF,nS,nD,variables,restricciones,estado,objetivo,cota,gap,t_construir,t_resolver,violaciones,objetivo_comprobado,demanda,servicios,apoyos,SG,P,RJ,obligatorios_sin_cubrir,idoneidad0,idoneidad1,idoneidad2,idoneidad3,prioridad0,prioridad1,prioridad2,prioridad3,prioridad4,prioridad5,prioridad6
+real_2025-01_IF,guardias,31,26,31,6740,2873,limite,3828.18,3841.778,0.355,0.16,271.18,0,3828.18,530,494,11,36,38,72,0,0,3,49,442,147,126,32,97,57,18,17
+sint_R020_W04_media_s0,guardias,20,17,28,2437,1769,limite,2275.154,2280.358,0.229,0.04,270.13,0,2275.154,340,285,11,16,45,43,0,0,1,27,257,40,139,39,19,30,18,

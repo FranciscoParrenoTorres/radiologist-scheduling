@@ -1,0 +1,11 @@
+instancia,config,nF,nS,nD,variables,restricciones,estado,objetivo,cota,gap,t_construir,t_resolver,violaciones,objetivo_comprobado,demanda,servicios,apoyos,SG,P,RJ,obligatorios_sin_cubrir,idoneidad0,idoneidad1,idoneidad2,idoneidad3,prioridad0,prioridad1,prioridad2,prioridad3,prioridad4,prioridad5,prioridad6
+real_2025-01_IF,guardias,31,26,31,6740,2873,limite,3823.632,,,0.08,60.29,0,3823.632,530,494,11,36,38,72,0,0,4,45,445,147,126,32,97,57,18,17
+real_2025-01_IF,base_k3,31,26,31,5856,6700,optimo,3786.0,3786.0,0.0,0.08,0.69,0,3786.0,530,480,14,47,38,72,0,0,8,61,411,147,123,32,94,54,18,12
+sint_R020_W04_media_s0,guardias,20,17,28,2437,1769,limite,2271.222,,,0.05,61.98,0,2271.222,340,285,11,16,45,43,0,0,1,26,258,40,139,39,20,27,20,
+sint_R020_W04_media_s0,base_k3,20,17,28,2123,2851,optimo,2254.0,2254.0,0.0,0.04,0.19,0,2254.0,340,274,18,20,45,43,0,0,2,24,248,40,136,36,18,24,20,
+sint_R060_W04_media_s0,guardias,60,50,28,15572,4860,limite,6214.13,,,0.18,58.93,0,6214.13,905,786,2,16,114,222,0,0,11,111,664,114,380,73,164,43,12,
+sint_R060_W04_media_s0,base_k3,60,50,28,14191,15308,limite,5948.0,,,0.24,59.81,0,5948.0,905,717,6,81,114,222,0,0,27,100,590,114,367,72,119,25,20,
+sint_R120_W04_media_s0,guardias,120,101,28,60941,11162,limite,13003.667,,,0.68,53.94,0,13003.667,1952,1762,3,29,243,363,0,0,5,117,1640,160,540,220,457,327,47,11
+sint_R120_W04_media_s0,base_k3,120,101,28,57099,58165,sin_solucion,,,,0.89,61.78,,,,,,,,,,,,,,,,,,,,
+sint_R240_W04_media_s0,guardias,240,202,28,216276,20980,sin_solucion,,,,2.57,45.41,,,,,,,,,,,,,,,,,,,,
+sint_R240_W04_media_s0,base_k3,240,202,28,207677,202721,sin_solucion,,,,3.54,66.19,,,,,,,,,,,,,,,,,,,,

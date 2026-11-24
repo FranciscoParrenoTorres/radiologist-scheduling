@@ -1,0 +1,6 @@
+instancia,config,nF,nS,nD,variables,restricciones,estado,objetivo,cota,gap,t_construir,t_resolver,violaciones,objetivo_comprobado,demanda,servicios,apoyos,SG,P,RJ,obligatorios_sin_cubrir,idoneidad0,idoneidad1,idoneidad2,idoneidad3,prioridad0,prioridad1,prioridad2,prioridad3,prioridad4,prioridad5,prioridad6
+real_2025-01_II,guardias,31,26,31,9050,2941,limite,3856.18,3868.587,0.322,0.11,60.6,0,3856.18,530,494,11,36,38,72,0,0,0,32,462,147,126,32,100,55,18,16
+real_2025-02_II,guardias,31,26,28,8350,2793,limite,3648.308,3660.646,0.338,0.09,60.3,0,3648.308,485,471,14,40,15,80,0,0,3,28,440,139,118,23,90,67,15,19
+real_2025-03_II,guardias,31,26,31,8139,2841,limite,3688.632,3707.351,0.507,0.08,60.25,0,3688.632,512,472,3,23,67,86,0,0,3,33,436,147,125,28,91,60,14,7
+real_2025-04_II,guardias,31,26,30,8395,2807,limite,3694.333,3704.443,0.274,0.09,60.23,0,3694.333,489,474,6,34,25,79,0,0,0,28,446,140,120,35,90,59,17,13
+real_2025-05_II,guardias,31,26,31,8959,2972,limite,3810.632,3818.315,0.202,0.09,60.26,0,3810.632,504,486,26,47,14,78,0,0,1,27,458,147,121,27,91,65,16,19
